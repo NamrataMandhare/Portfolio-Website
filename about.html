@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Information</title>
+	<style type="text/css">
+		*{
+			margin: 0;
+			padding: 0;
+			font-family: 'Poppins',sans-serif;
+			box-sizing: border-box;
+			overflow-y: hidden;
+		}
+		body{
+			background: #080808;
+			color: #fff;
+			}
+		.img{
+			height: 400px;
+			width: 400px;
+			margin-right: 600px;
+			margin-top: 100px;
+			margin-left: 100PX;
+			border-radius: 500px;
+        }
+		nav{
+			justify-content: left;
+			margin-left: 650px;
+			font-size: 30px;
+		    }
+		nav ul li{
+			display: inline-block;
+			list-style: none;
+			align-items: center;
+			padding: 10px;
+			padding-top: 30px;
+		}
+		nav ul li a{
+			color: #fff;
+			text-decoration: none;
+			font-size: 20px;
+			position: relative;
+			padding-left: 25px;
+		}
+		nav ul li a::after{
+			background: #ff004f;
+			position: absolute;
+			transition: 0.5s;
+		}
+		nav ul li a:hover::after{
+			width: 100%;
+		}
+		nav a:hover,active{
+	       color: orangered;
+        }
+        .h1{
+        	font-size: 50px;
+        	position: absolute;
+            top: 25%;
+            left: 40%;
+            font-family: !important;
+        }
+        .h1 span{
+        	color: #ff004f;
+        }
+        .p1{
+        	font-size: 20px;
+        	position: absolute;
+        	top: 40%;
+        	left: 40%;
+        	line-height: 30px;
+        }
+
+	</style>
+</head>
+<body>
+	<div class="container">
+		<nav>
+			<ul>
+				<li><a href="portfolio.html">Home</a></li>
+				<li><a href="about.html">About </a></li>
+				<li><a href="Eduction1.html">Education</a></li>
+				<li><a href="project.html">Projects</a></li>
+				<li><a href="skills.html">Skills</a></li>
+				<li><a href="contact.html">Contact </a></li>
+			</ul>
+		</nav>
+	<img src="picture1.jfif" class="img">
+	<h1 class="h1"><span>About Me</span></h1>
+	<p class="p1"> Hello,I'm Namrata Mandhare.My journey into web development began with a curiosity about how websites work and a desire to create impactful digital solutions. I thrive on turning ideas into reality through clean and efficient code, ensuring every website I build is not only beautiful but also user-friendly and functional across all devices.
+		I'm currently pursuring M.Sc(Computer Science) degree under Savitribai Phule university.I can create awesome, user-friendly websites that look great on any device. I'm ready to dive in, learn new things, and make a meaningful impact in the digital world!
+	 </p>
+   </div>
+</body>
+</html>
